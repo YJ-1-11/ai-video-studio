@@ -1,0 +1,42 @@
+
+# Credentials and local tool configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.npmrc
+.netrc
+
+# Private workspace contents; only public directory descriptions are tracked
+/projects/*
+!/projects/README.md
+/assets/*
+!/assets/README.md
+/runtime/
+/outputs/
+/work/
+/_test-work/
+
+# Local optional skill installations and generated dependencies
+/.agents/skills/*
+!/.agents/skills/english-lesson-design/
+!/.agents/skills/lesson-caption-qa/
+!/.agents/skills/lesson-visual-direction/
+node_modules/
+.remotion/
+out/
+dist/
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.mp4
+*.mov
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.ogg

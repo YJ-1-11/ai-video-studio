@@ -1,0 +1,16 @@
+{
+  "name": "ai-video-studio-remotion",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "check": "remotion versions",
+    "browser:ensure": "remotion browser ensure"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.484",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.484"
+  },
+  "license": "MIT"
+}
